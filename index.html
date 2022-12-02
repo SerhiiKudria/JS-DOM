@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- відкладає виконання скрипта, поки не буде розібрано документ -->
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script defer src="./js/slider.js"></script>
   <script defer src="./js/index.js"></script>
   <title>Document</title>
 </head>
@@ -13,6 +16,14 @@
 <body>
   <button>Some text</button>
   <img src="" alt="" class="mainImg" />
+  <div class="sliderWrapper">
+    <button class="prevBtn">&#60;</button>
+    <img class="sliderImg"
+      src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=300"
+      alt="image" />
+    <button class="nextBtn">></button>
+    <p class="sliderDescription"></p>
+  </div>
 </body>
 
 </html>
